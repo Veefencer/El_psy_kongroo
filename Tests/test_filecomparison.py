@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(filecomp.fcomp("D:/test_folder")["maxs"][0], "D:/test_folder/expected")
 
     def test_regular_2(self):
-        self.assertEqual(filecomp.fcomp("D:/test_folder")["mins"][0], "D:/test_folder/загружено.htm")
+        self.assertEqual(filecomp.fcomp("D:\\test_folder")["mins"][0], "D:/test_folder/загружено.htm")
 
     @unittest.expectedFailure
     def test_expected_failure(self):
