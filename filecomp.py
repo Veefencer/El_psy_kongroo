@@ -28,9 +28,9 @@ def fcomp(yourpath):
                 sizetup += (os.path.getsize(currentpath),)
             else:
                 for path, dirs, files in os.walk(currentpath):
-                    for f in files:
-                        fp = os.path.join(path, f)
-                        sizesum += os.path.getsize(fp)
+                    for file in files:
+                        filepath = os.path.join(path, file)
+                        sizesum += os.path.getsize(filepath)
                 sizesum = (sizesum,)
                 sizetup += sizesum
         maxs = 0                        # Finding indexes(keys) of one maximum and one minimum size contents
