@@ -7,4 +7,4 @@
   
   !!!
   Usage of backslash in paths should be avoided due to it causing the function to fail (SyntaxError).
-  Either '\\' or '/' should be used instead. Alternatively, the path can be initially inputted as raw, e.g. fcomp(r'C:\Users')
+  Either double backslash or slash should be used instead. Alternatively, the path can be initially inputted as raw, e.g. fcomp(r'C:\Users')
