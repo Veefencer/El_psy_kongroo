@@ -1,5 +1,5 @@
 import unittest
-from filecomp import fcomp
+from filecomp_root_directory.filecomp.filecomp import fcomp
 
 
 class MyTestCase(unittest.TestCase):
